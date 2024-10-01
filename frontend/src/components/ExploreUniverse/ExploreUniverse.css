@@ -1,0 +1,62 @@
+.explore-universe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #333; /* Dark background */
+    color: white;
+  }
+  
+  .universe-left, .universe-right {
+    flex: 1;
+    max-width: 30%;
+    padding: 20px;
+  }
+  
+  .universe-left h2, .universe-right h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .universe-left p, .universe-right p {
+    color: #b3b3b3;
+    margin-bottom: 25px;
+  }
+  
+  .learn-more-link {
+    color: #e76f51;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .universe-center {
+    text-align: center;
+    flex: 1;
+  }
+  
+  .universe-center h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .telescope-icon {
+    width: 450px; /* Adjust based on the actual size of the image */
+    margin-bottom: 20px;
+  }
+  
+
+  .explorers-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .explorers-icon {
+    width: 150px; /* Adjust this based on the actual size of the image */
+    margin-right: 10px;
+  }
+
+  /* .explorers-section image{
+    height:20px;
+  }
+   */

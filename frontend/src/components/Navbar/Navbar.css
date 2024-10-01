@@ -1,0 +1,100 @@
+/* Container for navbar */
+.navbar {
+  background-color: #333;
+  padding: 10px 20px;
+  height:20%;
+  widht:100%;
+}
+
+.navbar__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__logo img {
+  width: 40px;
+  margin-right: 5px;
+}
+
+.navbar__logo span {
+  display: flex;
+  align-items: center;
+  color: tomato;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.navbar__menu {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar__link {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+.navbar__link:hover,
+.active {
+  color: tomato; /* Highlight color for active link */
+}
+
+.navbar__button .get-started-btn {
+  background-color: #E76F51;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.navbar__button .get-started-btn:hover {
+  background-color: #F48C06;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .navbar__menu {
+      display: none; /* Hide menu on small screens */
+  }
+
+  .navbar__button {
+      position: relative; /* Position for button */
+  }
+
+  .navbar__toggle {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+  }
+
+  .navbar__toggle div {
+      height: 4px;
+      width: 25px;
+      background-color: #fff;
+      margin: 4px;
+  }
+}
+
+.sidebar-menu {
+  position: absolute;
+  top: 50px; /* Adjust based on your navbar height */
+  right: 20px;
+  background-color: #333;
+  padding: 10px;
+  border-radius: 5px;
+  display: none; /* Initially hidden */
+}
+
+.sidebar-menu.active {
+  display: block; /* Show when active */
+}

@@ -1,0 +1,60 @@
+.experience-section {
+    padding: 50px 100px;
+    background-color: #333; /* Dark background */
+    color: white;
+    text-align: center;
+  }
+  
+  .experience-title {
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+  
+  .experience-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .experience-item {
+    flex: 1;
+    max-width: 30%;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .experience-icon {
+    width: 100px; /* Adjust based on the actual size of the images */
+    margin-bottom: 20px;
+  }
+  
+  .experience-number {
+    font-size: 3.2rem;
+    color: white; /* Color for the number */
+    margin-bottom: 20px;
+  }
+  
+  .experience-description {
+    color: #b3b3b3; /* Lighter color for text */
+    font-size: 1rem;
+    margin-bottom: 20px;
+    text-align:start;
+    padding-left:20px;
+  }
+
+  .flexbo{
+    display:flex;
+    align-items:center;
+  }
+  
+  @media (max-width: 768px) {
+    .experience-container {
+      flex-direction: column;
+    }
+  
+    .experience-item {
+      max-width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  

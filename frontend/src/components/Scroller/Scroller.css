@@ -1,0 +1,29 @@
+.scroller{
+    background-color:#333;
+}
+
+.movingText {
+    white-space: nowrap; /* Keeps text on a single line */
+    overflow-x: hidden;  /* Hides the overflow to keep it clean */
+    position: relative;  
+}
+
+.movingText h1 {
+    display: inline-block;
+    font-size: 6vw;      /* Responsive font size */
+    font-weight: bold;
+    animation: move 7s linear infinite; /* Combined properties for brevity */
+}
+
+/* .con {
+    display: inline-block;
+} */
+
+@keyframes move {
+    0% {
+        transform: translate(0,0); /* Start off-screen to the right */
+    }
+    100% {
+        transform: translate(-100%,0); /* Move off-screen to the left */
+    }
+}
