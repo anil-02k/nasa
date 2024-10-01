@@ -12,7 +12,7 @@ const Footer = () => {
       <div className='footer-content'>
         <div className='footer-content-left'>
         <div className="navbar__logo">
-          <Link to="/"><span><img src={logo} alt="Galactia Logo" /> Galactia</span></Link>
+          <a href='#navbar'><span><img src={logo} alt="Galactia Logo" /> Galactia</span></a>
         </div>
             <p>galactia provides essential  for overall health and well- provides essential nutrients for overall healt provides essential nutrients for.</p>
             <div className='footer-social-icons'>

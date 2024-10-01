@@ -16,7 +16,7 @@ const Header = () => {
           Open repair of infrarenal aortic aneurysm or dissection, plus repair of associated arterial trauma.
         </p>
         <div className="header__buttons">
-          <button className="header__button header__button--learn">See Orrey</button>
+          <button onClick={()=>window.location.href='http://172.19.27.251:5173/'} className="header__button header__button--learn">See Orrey</button>
         </div>
         <div className="header__stats">
           <div className="stat">

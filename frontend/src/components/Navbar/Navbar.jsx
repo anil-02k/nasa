@@ -5,7 +5,7 @@ import logo from '../../assets/6909874.webp'
 
 const Navbar = () => {
   return (
-    <nav className="navbar">
+    <nav className="navbar" id='navbar'>
       <div className="navbar__container">
         {/* Logo Section */}
         <div className="navbar__logo">
@@ -15,22 +15,22 @@ const Navbar = () => {
         {/* Navigation Links */}
         <ul className="navbar__menu">
           <li>
-            <NavLink to="/programs" activeClassName="active" className="navbar__link">Programs</NavLink>
+            <a href='http://172.19.27.251:5173/' activeClassName="active" className="navbar__link">Programs</a>
           </li>
           <li>
-            <NavLink to="/about" activeClassName="active" className="navbar__link">About Us</NavLink>
+            <a href='#footer' activeClassName="active" className="navbar__link">About Us</a>
           </li>
           <li>
-            <NavLink to="/pricing" activeClassName="active" className="navbar__link">Pricing</NavLink>
+            <a href='#update' activeClassName="active" className="navbar__link">Update</a>
           </li>
           <li>
-            <NavLink to="/contact" activeClassName="active" className="navbar__link">Contact</NavLink>
+            <a href='#footer' activeClassName="active" className="navbar__link">Contact</a>
           </li>
         </ul>
 
         {/* Get Started Button */}
         <div className="navbar__button">
-          <Link to="/get-started" className="get-started-btn">Get Started</Link>
+          <Link onClick={()=>window.location.href='http://172.19.27.251:5173/'} className="get-started-btn">Get Started</Link>
         </div>
       </div>
     </nav>

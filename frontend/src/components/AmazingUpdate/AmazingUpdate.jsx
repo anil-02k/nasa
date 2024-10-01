@@ -29,7 +29,7 @@ const AmazingUpdate = () => {
   });
 
   return (
-    <div className="amazing-update">
+    <div className="amazing-update" id='update'>
       <div className="update-info">
         <h2>The Most Amazing Update Is Coming</h2>
         <span className="update-time">January 1, 2025 at 10 PM</span>
