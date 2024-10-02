@@ -61,3 +61,38 @@
   .card-image .exploreicon{
     height:300px;
   }
+
+  @media (max-width: 768px) {
+    .space-section {
+      flex-direction: column;
+      padding: 20px; /* Reduce padding for smaller screens */
+    }
+  
+    .card {
+      max-width: 100%; /* Full width on smaller screens */
+      margin-bottom: 20px; /* Add margin to separate stacked cards */
+    }
+  
+    .card-image {
+      right: 0; /* Adjust image alignment on mobile */
+    }
+  
+    .card-image img {
+      height: 150px; /* Reduce image size for smaller screens */
+    }
+  
+    .card-content h2 {
+      font-size: 1.5rem; /* Adjust font size for better readability */
+    }
+  }
+  @media (max-width: 480px) {
+  
+    .card-content h2 {
+      font-size: 1.5rem; /* Reduce title font size for smaller screens */
+    }
+  
+    .card-content p {
+      font-size: 0.9rem; /* Adjust paragraph font size */
+    }
+  }
+  

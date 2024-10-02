@@ -12,9 +12,9 @@ const Footer = () => {
       <div className='footer-content'>
         <div className='footer-content-left'>
         <div className="navbar__logo">
-          <a href='#navbar'><span><img src={logo} alt="Galactia Logo" /> Galactia</span></a>
+          <a href='#navbar'><span><img src={logo} alt="Galactia Logo" /> Spacez</span></a>
         </div>
-            <p>galactia provides essential  for overall health and well- provides essential nutrients for overall healt provides essential nutrients for.</p>
+            <p>spacez provides essential  for overall health and well- provides essential nutrients for overall healt provides essential nutrients for.</p>
             <div className='footer-social-icons'>
                 <img src={facebook_icon}/>
                 <img src={twitter_icon}/>
@@ -34,12 +34,12 @@ const Footer = () => {
             <h2>GET IN TOUCH</h2>
             <ul>
                 <li>+1-232-323-3323</li>
-                <li>galactia@gmail.com</li>
+                <li>spacez@gmail.com</li>
             </ul>
         </div>
       </div>
       <hr></hr>
-      <p className='footer-copyright'>Copyright 2024 © galactia.com - All Rights Reserved.</p>
+      <p className='footer-copyright'>Copyright 2024 © spacez.com - All Rights Reserved.</p>
     </div>
   )
 }

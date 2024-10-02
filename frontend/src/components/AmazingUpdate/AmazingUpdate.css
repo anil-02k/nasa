@@ -85,3 +85,79 @@
     height: auto;
   }
   
+  @media (max-width: 768px) {
+    .amazing-update {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 30px 10px;
+      height: auto;
+    }
+  
+    .update-info {
+      position: relative;
+      left: 0;
+      max-width: 100%;
+      text-align: center;
+    }
+  
+    .update-info h2 {
+      font-size: 3rem; /* Reduce font size */
+    }
+  
+    .planet-img {
+      width: 900px; /* Adjust image size */
+    }
+  
+    .countdown-timer {
+      /* flex-direction: column; */
+      /* align-items: center; */
+      padding:50px;
+    }
+  
+    .timer-element {
+      margin-bottom: 15px;
+    }
+  }
+  @media (max-width: 480px) {
+    .amazing-update {
+      padding: 20px 10px;
+      height: auto;
+    }
+  
+    .update-info {
+      left: 0;
+      text-align: center;
+      max-width: 100%;
+    }
+  
+    .update-info h2 {
+      font-size: 2.5rem; /* Further reduce font size for smaller screens */
+    }
+  
+    .update-time {
+      font-size: 0.8rem;
+      padding: 3px 8px;
+    }
+  
+    .planet-img {
+      width: 620px; /* Further reduce image size for mobile */
+      z-index:-1;
+    }
+  
+    .join-btn {
+      padding: 8px 16px;
+      font-size: 0.9rem;
+    }
+  
+    .countdown-timer {
+      /* flex-direction: column; */
+    }
+  
+    .timer-element h3 {
+      font-size: 1.5rem; /* Reduce size of countdown numbers */
+    }
+  
+    .timer-element p {
+      font-size: 0.8rem;
+    }
+  }

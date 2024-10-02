@@ -50,11 +50,12 @@
   @media (max-width: 768px) {
     .experience-container {
       flex-direction: column;
+      padding: 0 0px;
     }
   
     .experience-item {
       max-width: 100%;
-      margin-bottom: 20px;
+      /* margin-bottom: 20px; */
     }
   }
   

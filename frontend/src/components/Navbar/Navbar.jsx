@@ -9,13 +9,13 @@ const Navbar = () => {
       <div className="navbar__container">
         {/* Logo Section */}
         <div className="navbar__logo">
-          <Link to="/"><span><img src={logo} alt="Galactia Logo" /> Galactia</span></Link>
+          <Link to="/"><span><img src={logo} alt="Galactia Logo" /> Spacez</span></Link>
         </div>
 
         {/* Navigation Links */}
         <ul className="navbar__menu">
           <li>
-            <a href='http://172.19.27.251:5173/' activeClassName="active" className="navbar__link">Programs</a>
+            <a href='https://celadon-khapse-e72a28.netlify.app/' activeClassName="active" className="navbar__link">Programs</a>
           </li>
           <li>
             <a href='#footer' activeClassName="active" className="navbar__link">About Us</a>
@@ -30,7 +30,7 @@ const Navbar = () => {
 
         {/* Get Started Button */}
         <div className="navbar__button">
-          <Link onClick={()=>window.location.href='http://172.19.27.251:5173/'} className="get-started-btn">Get Started</Link>
+          <Link onClick={()=>window.location.href='https://celadon-khapse-e72a28.netlify.app/'} className="get-started-btn">Get Started</Link>
         </div>
       </div>
     </nav>

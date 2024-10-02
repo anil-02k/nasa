@@ -96,3 +96,37 @@
     color: #fff; /* Lighter text color */
   }
   
+
+  @media (max-width: 768px) {
+    .image1 img{
+      /* display:none; */
+      height:550px;
+   }
+   .header_content{
+    left:25%;
+    top:40%
+}
+.header_content h1{
+  font-size:4.4rem;
+  line-height:4.4rem;
+}
+}
+
+@media (max-width: 480px) {
+  .image1 img{
+    height:400px
+  }
+  .image2 img{
+    /* display:none; */
+    height:100px;
+ }
+  .image3 img{
+    /* display:none; */
+    height:450px;
+ }
+ .header_content h1{
+  font-size:2.7rem;
+  line-height:2.5rem;
+}
+
+}
